@@ -18,28 +18,20 @@ import internal.GlobalVariable as GlobalVariable
 
 
 /**
- *  CASES C10137
- *  Menampilkan Page Login
- */
+ * CASE - C10139
+ * Login dengan No Handphone Yang Tidak Valid
+*/
 
 
-/* Start Application */
-Mobile.startApplication("/Users/fundtastic/Downloads/mobile-debug.apk", false);
+Mobile.setText(findTestObject('Object Repository/On - Boarding/Login/Field - No Handphone Login'), '01912345678', 0);
 
-Mobile.delay(5);
+Mobile.tap(findTestObject('Object Repository/On - Boarding/Login/Btn - Masuk login'), 0);
 
-/* Swipe Page On Boarding 1, 2, 3 */
-for (int i=0; i<2; i++)
-{
-Mobile.swipe(1075, 950, 25, 852);
-Mobile.delay(2);
-}
+/* Card Alert Text Visible */
+Mobile.verifyElementVisible(findTestObject('Object Repository/On - Boarding/Login/Card Alert - Case Phone Login'), 0)
 
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Login/Button Onboarding - Lanjut'), 0);
+def textAlert = Mobile.getText(findTestObject('Object Repository/On - Boarding/Login/Text Alert - Nomor Handphone Tidak Valid'), 0);
 
-Mobile.delay(2);
-
-/* Verify element card form login no handphone */
-Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Login/Card - Form Login No Handphone'), 0);
+Mobile.verifyEqual(textAlert, "Nomor Handphone Tidak Valid");
 
 Mobile.delay(2);
