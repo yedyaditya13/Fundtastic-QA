@@ -16,30 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 
-
 /**
- *  CASES C10137
- *  Menampilkan Page Login
- */
+ * CASE - C10138 
+ * Mengosongkan Form Login dan memilih button Masuk
+*/
 
 
-/* Start Application */
-Mobile.startApplication("/Users/fundtastic/Downloads/mobile-debug.apk", false);
+Mobile.tap(findTestObject('Object Repository/On - Boarding/Login/Btn - Masuk login'), 0);
 
-Mobile.delay(5);
+/* Card Alert Text Visible */
+Mobile.verifyElementVisible(findTestObject('Object Repository/On - Boarding/Login/Card Alert - Case Phone Login'), 0)
 
-/* Swipe Page On Boarding 1, 2, 3 */
-for (int i=0; i<2; i++)
-{
-Mobile.swipe(1075, 950, 25, 852);
-Mobile.delay(2);
-}
+def textAlert = Mobile.getText(findTestObject('Object Repository/On - Boarding/Login/Text Alert - No Handphone Kosong'), 0);
 
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Login/Button Onboarding - Lanjut'), 0);
+Mobile.verifyEqual(textAlert, "Nomor Handphone Kosong");
 
 Mobile.delay(2);
 
-/* Verify element card form login no handphone */
-Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Login/Card - Form Login No Handphone'), 0);
 
-Mobile.delay(2);
+
+
