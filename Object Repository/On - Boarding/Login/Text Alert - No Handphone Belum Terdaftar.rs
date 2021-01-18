@@ -3,7 +3,7 @@
    <description></description>
    <name>Text Alert - No Handphone Belum Terdaftar</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>d9507141-3d0e-4a8d-9c77-b34ad1752ca6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
