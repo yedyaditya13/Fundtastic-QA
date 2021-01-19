@@ -1,10 +1,10 @@
 [35m[Appium][39m Welcome to Appium v1.12.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 59338
+[35m[Appium][39m   port: 62579
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   chromeDriverPort: 59340
-[35m[Appium][39m   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1611068428425
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59338
+[35m[Appium][39m   chromeDriverPort: 62581
+[35m[Appium][39m   tmpDir: /var/folders/bv/w05xlz0n7wj_gdr6vr8jz5lw0000gn/T//Katalon/Appium/Temp1611071162124
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62579
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
@@ -14,7 +14,7 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/fundtastic/Downloads/mobile-debug.apk","noReset":true,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":59350},"capabilities":{"firstMatch":[{"appium:app":"/Users/fundtastic/Downloads/mobile-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":59350,"appium:udid":"emulator-5554"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/fundtastic/Downloads/mobile-debug.apk","noReset":true,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":62590},"capabilities":{"firstMatch":[{"appium:app":"/Users/fundtastic/Downloads/mobile-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":62590,"appium:udid":"emulator-5554"}]}}[39m
 [35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
 [35m[Appium][39m Appium v1.12.1 creating new AndroidUiautomator2Driver (v1.33.0) session
 [35m[Appium][39m Capabilities:
@@ -28,10 +28,10 @@
 [35m[Appium][39m   newCommandTimeout: 1800
 [35m[Appium][39m   noReset: true
 [35m[Appium][39m   platformVersion: 7.0
-[35m[Appium][39m   systemPort: 59350
+[35m[Appium][39m   systemPort: 62590
 [35m[Appium][39m   udid: emulator-5554
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
-[35m[BaseDriver][39m Session created with session id: 0450cf37-1a2f-4774-afb4-87c4cb002a12
+[35m[BaseDriver][39m Session created with session id: 933ee168-fc76-4076-827d-0bbc4ba7b0ac
 [35m[BaseDriver][39m Using local app '/Users/fundtastic/Downloads/mobile-debug.apk'
 [35m[ADB][39m Checking whether adb is present
 [35m[ADB][39m Found 1 'build-tools' folders under '/Users/fundtastic/.katalon/tools/android_sdk' (newest first):
@@ -52,81 +52,301 @@
 [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'id.co.fundtastic.client/id.co.fundtastic.client.presentation.SplashActivity'. Starting it ourselves
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 0450cf37-1a2f-4774-afb4-87c4cb002a12 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9758 ms - 1249[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 933ee168-fc76-4076-827d-0bbc4ba7b0ac added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9810 ms - 1249[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12 [39m[32m200[39m [90m26 ms - 1181[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac [39m[32m200[39m [90m25 ms - 1181[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12 [39m[32m200[39m [90m12 ms - 1181[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac [39m[32m200[39m [90m14 ms - 1181[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/timeouts [39m[32m200[39m [90m4 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (0450cf37)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 4070e63f-dbda-4fc5-9993-6f3bcf33e5d5 with 0450cf37-1a2f-4774-afb4-87c4cb002a12
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/source [39m[32m200[39m [90m1243 ms - 4184[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m1273 ms - 4184[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/screenshot [39m[32m200[39m [90m380 ms - 77258[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m299 ms - 77090[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (0450cf37)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 4070e63f-dbda-4fc5-9993-6f3bcf33e5d5 with 0450cf37-1a2f-4774-afb4-87c4cb002a12
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/source [39m[32m200[39m [90m182 ms - 30345[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m245 ms - 51553[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/screenshot [39m[32m200[39m [90m306 ms - 173124[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m310 ms - 259904[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and @resource-id = 'id.co.fundtastic.client:id/ivBack' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements [39m[32m200[39m [90m198 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RelativeLayout' and @resource-id = 'id.co.fundtastic.client:id/ll_mission' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m274 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/source[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/iv_mission' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m223 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Misi Keuangan' or . = 'Misi Keuangan')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m252 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (0450cf37)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 4070e63f-dbda-4fc5-9993-6f3bcf33e5d5 with 0450cf37-1a2f-4774-afb4-87c4cb002a12
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/source [39m[32m200[39m [90m48 ms - 7761[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m45 ms - 10108[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/screenshot [39m[32m200[39m [90m280 ms - 79992[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m275 ms - 116164[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/btnBack' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m91 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/loginImage' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m51 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'No Handphone' or . = 'No Handphone') and @resource-id = 'id.co.fundtastic.client:id/et_phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m46 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'id.co.fundtastic.client:id/btnLogin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m56 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Silahkan login untuk melihat goal kamu' or . = 'Silahkan login untuk melihat goal kamu') and @resource-id = 'id.co.fundtastic.client:id/loginText']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m55 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m224 ms - 51553[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m312 ms - 260098[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and @resource-id = 'id.co.fundtastic.client:id/ll_financial' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m243 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m210 ms - 3083[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Ups, produk tidak ditemukan' or . = 'Ups, produk tidak ditemukan')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements [39m[32m200[39m [90m64 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m328 ms - 3083[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Hasil pencarian tidak ditemukan, coba cari produk yang lain?' or . = 'Hasil pencarian tidak ditemukan, coba cari produk yang lain?')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Finansial Pintar' or . = 'Finansial Pintar')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m219 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements [39m[32m200[39m [90m56 ms - 267[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"Navigate up"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12/elements [39m[32m200[39m [90m23 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 0450cf37-1a2f-4774-afb4-87c4cb002a12 from our master session list
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/0450cf37-1a2f-4774-afb4-87c4cb002a12 [39m[32m200[39m [90m418 ms - 14[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m55 ms - 10135[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m270 ms - 109964[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/btnBack' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/loginImage' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m54 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Sebelum memasuki Finansial Pintar, silakan login terlebih dahulu' or . = 'Sebelum memasuki Finansial Pintar, silakan login terlebih dahulu') and @resource-id = 'id.co.fundtastic.client:id/loginText']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'No Handphone' or . = 'No Handphone') and @resource-id = 'id.co.fundtastic.client:id/et_phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m47 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'id.co.fundtastic.client:id/btnLogin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m53 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m201 ms - 51553[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m298 ms - 259256[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and @resource-id = 'id.co.fundtastic.client:id/ll_consultation' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m232 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m222 ms - 3083[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m320 ms - 3083[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Konsultasi' or . = 'Konsultasi')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m208 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m43 ms - 10122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m276 ms - 118856[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/btnBack' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/loginImage' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Sebelum melakukan konsultasi, silahkan login dahulu' or . = 'Sebelum melakukan konsultasi, silahkan login dahulu') and @resource-id = 'id.co.fundtastic.client:id/loginText']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'No Handphone' or . = 'No Handphone') and @resource-id = 'id.co.fundtastic.client:id/et_phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m52 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'id.co.fundtastic.client:id/btnLogin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m50 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m223 ms - 51553[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m312 ms - 260304[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RelativeLayout' and @resource-id = 'id.co.fundtastic.client:id/ll_challenge' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m204 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/iv_challenge' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m227 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'New' or . = 'New')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m204 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"New\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m63 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m44 ms - 10111[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m247 ms - 106820[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/btnBack' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m37 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'id.co.fundtastic.client:id/loginImage' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m52 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'No Handphone' or . = 'No Handphone') and @resource-id = 'id.co.fundtastic.client:id/et_phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m52 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'id.co.fundtastic.client:id/btnLogin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m57 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Silakan login untuk melihat challenge kamu' or . = 'Silakan login untuk melihat challenge kamu') and @resource-id = 'id.co.fundtastic.client:id/loginText']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m39 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m230 ms - 51553[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m319 ms - 259290[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and @resource-id = 'id.co.fundtastic.client:id/ll_recommendation' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m197 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m236 ms - 3083[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m311 ms - 3083[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rekomendasi' or . = 'Rekomendasi')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m219 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (933ee168)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1eb7231e-446c-4745-ac1e-9ea86749c783 with 933ee168-fc76-4076-827d-0bbc4ba7b0ac
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/source [39m[32m200[39m [90m56 ms - 15416[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/screenshot [39m[32m200[39m [90m294 ms - 196026[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m54 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rekomendasi' or . = 'Rekomendasi')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac/elements [39m[32m200[39m [90m66 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 933ee168-fc76-4076-827d-0bbc4ba7b0ac from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/933ee168-fc76-4076-827d-0bbc4ba7b0ac [39m[32m200[39m [90m424 ms - 14[39m
 [35m[HTTP][39m [90m[39m

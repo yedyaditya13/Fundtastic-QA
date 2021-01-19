@@ -23,4 +23,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/02 - Menggunakan Fitur Search Produk Kosong</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e2b27996-ffe7-4495-b18a-89fde698ee0f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/03 - Memilih icon Favorite atau Love</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ec3f17c-4fe9-49f2-9dec-a1da96aca61b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/04 - Memilih Fitur Portofolio</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03558e8e-0a60-4014-a77d-5c5f225569e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/05 - Memilih Fitur Misi Keuangan</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8caa16d6-69f5-4db1-ac6d-004c6c3a0231</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/06 - Memilih Fitur Finansial Pintar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c968b776-e761-4c08-8cb8-deae7b2d67fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/07 - Memilih Fitur Konsultasi</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c6b2e00-2e12-4452-a65b-7dbd20577af8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/08 - Memilih Fitur Rekomendasi</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
