@@ -24,9 +24,27 @@
       <testCaseId>Test Cases/Mobile/On Boarding/Login/02 - Mengosongkan Form Login dan Memilih button Masuk</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a3ba06b-9a36-482b-b270-79e0a4ec37f4</guid>
+      <guid>14915424-5efc-4dc5-96aa-d94dcc6f7c7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/On Boarding/Login/03 - Login Dengan No Handphone Yang Tidak Valid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4dab79c4-b28b-4768-9590-850dcaf0eb18</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Login/04 - Login Dengan No Handphone Kurang Dari 10 Digit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95108b20-5806-4e9d-aa6f-22f3e39364f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Login/05 - Login Dengan No Handphone Yang Belum Terdaftar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>200bfd3b-404d-470c-99fe-1146081d6435</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Login/06 - Login Dengan No Handphone Sudah Terdaftar dan Valid</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
