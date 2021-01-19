@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>00 - Menampilkan Page Home User Belum Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bae90de5-bbf9-42ff-b0a2-c6a9f261345d</testCaseGuid>
+</TestCaseEntity>
