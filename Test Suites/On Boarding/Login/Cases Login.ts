@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/On Boarding/Login/06 - Login Dengan No Handphone Sudah Terdaftar dan Valid</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>bcf43bd5-2cec-4e1a-8b85-381e544c4a30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Login/07 - Memilih button Back page OTP dan link Punya Masalah Login</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
