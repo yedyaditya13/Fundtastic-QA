@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Login Dengan No Handphone Kurang Dari 10 Digit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea09e375-1356-409a-9158-6f7218b09809</testCaseGuid>
+</TestCaseEntity>
