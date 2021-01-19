@@ -43,12 +43,12 @@ Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Login/
 
 Mobile.delay(2);
 
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Label - Lewati Page Form Login'), 0);
+Mobile.tap(findTestObject('On - Boarding/Logged Out User/Home/Object Fitur Search/Label - Lewati Page Form Login'), 0);
 
 Mobile.delay(2);
 
 /* Verify element Logo Fundtastic on page Home */
-Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Logo - Home Fundtastic'), 0);
+Mobile.verifyElementExist(findTestObject('On - Boarding/Logged Out User/Home/Object Fitur Search/Logo - Home Fundtastic'), 0);
 
 Mobile.delay(2);
 
