@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Home - User Arent Login</name>
+   <name>Home - User Arent Login 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -58,5 +58,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/08 - Memilih Fitur Rekomendasi</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df58e392-3215-47c5-8765-22e4706f4066</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/09 - Memilih Icon Keranjang Pada Page Detail Produk Reksa Dana</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d142a0f1-bf70-4648-b0c5-8a9c168d33be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/10 - Menambahkan Produk Reksa Dana Ke Keranjang</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
