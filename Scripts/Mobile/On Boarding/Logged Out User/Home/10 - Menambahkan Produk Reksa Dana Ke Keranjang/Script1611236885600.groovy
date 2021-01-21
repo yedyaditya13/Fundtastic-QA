@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 
 
 /**
- *  CASE - C14227
- *  Memilih Fitur Portofolio
+ *  CASE - C14241
+ *  Memilih Icon Keranjang Pada Page Detail Produk Reksa Dana
  */
 
 
@@ -28,27 +28,30 @@ import internal.GlobalVariable as GlobalVariable
 //
 //Mobile.delay(2);
 
-/* ============== */
 
+/* ======
 
-/* Verify icon fitur portofolio and tap it on page Home */
-//Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Fitur Portofolio/Icon - Portofolio'), 0);
-
-Mobile.verifyElementText(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Fitur Portofolio/Text - Portofolio'), 'Portofolio');
-
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Fitur Portofolio/Card - Fitur Portofolio'), 0);
+/* Scroll to product reksa dana on Update Terbaru */
+Mobile.swipe(289, 1563, 233, 237);
 
 Mobile.delay(2);
 
-/* Verify logo and text portofolio on page Form Portofolio */
-Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Fitur Portofolio/Logo - Form Page Portofolio'), 0);
-
-Mobile.verifyElementText(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Fitur Portofolio/Text - Page Form Portofolio'), 'Silahkan login untuk melihat portofolio kamu');
+Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Card RD - Update Terbaru'), 0);
 
 Mobile.delay(2);
 
-/* Back to page Home */
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Fitur Portofolio/Btn - Back Page Form Portofolio'), 0);
+/* Tap on Btn Tambah Ke Keranjang */
+Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Btn - Tambah Ke Keranjang Page Detail RD'), 0);
+
+Mobile.delay(2);
+
+/* Verify logo keranjang on page Form Keranjang */
+Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Logo - Cart Page Form Keranjang'), 0);
+
+for (int i=0; i<2; i++)
+{
+	Mobile.pressBack();
+}
 
 Mobile.delay(3);
 
