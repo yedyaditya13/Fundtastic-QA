@@ -49,7 +49,7 @@ Mobile.verifyElementText(findTestObject('On - Boarding/Logged Out User/Home/Obje
 Mobile.delay(2);
 
 /* Tap on icon Keranjang on page Detail Reksa Dana */
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Icon - Cart Page Detail RD'), 
+Mobile.tap(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Icon - Cart Page Detail RD'), 
     0);
 
 Mobile.delay(2);
@@ -57,12 +57,12 @@ Mobile.delay(2);
 /*====
  */
 /* Verify element text etc on page form page keranjang */
-Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Logo - Cart Page Form Keranjang'), 
+Mobile.verifyElementExist(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Logo - Cart Page Form Keranjang'), 
     0);
 
 // Cannot read enter key in text
 //Mobile.verifyElementText(findTestObject('null'), 'Sebelum memasuki keranjang, silakan login terlebih dahulu');
-//def textPgCart = Mobile.getText(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Text - Sebelum memasuki keranjang'), 
+//def textPgCart = Mobile.getText(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Text - Sebelum memasuki keranjang'), 
 //    0);
 //
 //String strKey = Keys.chord(Keys.ENTER);
@@ -72,7 +72,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged
 Mobile.delay(2);
 
 /* Back to page Home */
-Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang/Btn - Back Page Form Keranjang'), 
+Mobile.tap(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Btn - Back Page Form Keranjang'), 
     0);
 
 Mobile.delay(2);

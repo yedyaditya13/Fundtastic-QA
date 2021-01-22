@@ -18,15 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 
 
 /**
- *  CASE - C14235
- *  Menambahkan Produk Reksadana Ke Keranjang
+ *  CASE - C14236
+ *  Melakukan Pembelian Produk Reksa Dana
  */
 
 
 /* Start Application */
-//Mobile.startApplication("/Users/fundtastic/Downloads/mobile-debug.apk", false);
-//
-//Mobile.delay(2);
+Mobile.startApplication("/Users/fundtastic/Downloads/mobile-debug.apk", false);
+
+Mobile.delay(2);
 
 
 /* ======
@@ -40,22 +40,17 @@ Mobile.tap(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranj
 
 Mobile.delay(2);
 
-/* Tap on Btn Tambah Ke Keranjang */
-Mobile.tap(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Btn - Tambah Ke Keranjang Page Detail RD'), 0);
+/* Tap on Btn Beli */
+Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Btn - Beli Page Detail RD'), 0);
 
 Mobile.delay(2);
 
-/* Verify logo keranjang on page Form Keranjang */
-Mobile.verifyElementExist(findTestObject('On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Logo - Cart Page Form Keranjang'), 0);
+/* Verify logo keranjang on page Form Pembelian */
+Mobile.verifyElementExist(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Logo - Page Form Pembelian'), 0);
 
-for (int i=0; i<2; i++)
-{
-	Mobile.pressBack();
-}
+/* Back to Home Page */
+Mobile.tap(findTestObject('Object Repository/On - Boarding/Logged Out User/Home/Object Page Keranjang dan Pembelian/Btn - Back Page Form Pembelian'), 0);
+
+Mobile.pressBack();
 
 Mobile.delay(3);
-
-
-
-
-
