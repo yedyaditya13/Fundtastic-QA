@@ -15,6 +15,6 @@
       <guid>662172d8-5acb-456e-afbd-d86130db6a1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home/11 - Melakukan Pembelian Reksa Dana</testCaseId>
+      <testCaseId>Test Cases/Mobile/On Boarding/Logged Out User/Home (Undone)/11 - Melakukan Pembelian Reksa Dana</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

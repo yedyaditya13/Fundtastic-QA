@@ -24,7 +24,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 /* Call Test Case Page Home User Belum Login */
-Mobile.callTestCase(findTestCase("Test Cases/Mobile/On Boarding/Logged Out User/Home/00 - Menampilkan Page Home User Belum Login"), null);
+Mobile.callTestCase(findTestCase("Mobile/On Boarding/Logged Out User/Home (Undone)/00 - Menampilkan Page Home User Belum Login"), null);
 
 Mobile.delay(2);
 
